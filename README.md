@@ -1,7 +1,7 @@
 # LSE_DA_COVID_analysis
 
 
-## Week 2 Notes and observations:
+### Week 2 Notes and observations:
 
 The total numbers provide a glimpse of the COVID-19 data to indicate the overview of the data recorded. Yet, it is unable to provide much insight because of the following reasons:
 1. Part of the data recorded are cumulative data that the sum does not provide an actual picture of the data
@@ -12,25 +12,25 @@ With the concern listed above, it is important to review the data trends over ti
 
 The typical mistakes that are easily made in this phase is to review the data at a high level only and neglect the data detail.
 
-Explore the cases dataframe:
+##### Explore the cases dataframe:
 - The cases dataframe is the daily entries that contain details of COVID cases in the United Kingdom, including the number of deaths, cases, recovered, and hospitalised cases in each of the provinces.
 - Deaths and Cases are cumulative data as we can see the number increase over time. Hence, descriptive statistic does not provide much insight in this case
 - The hospitalised data is the number of cases where COVID-19 positive individuals are hospitalised, yet it is worth to further explore and clarify given that the number of hospitalised could be higher than the number of cases that is absurd
 - The cases dataframe have 7,584 rows and 12 columns with 2 rows of missing data
 - The number of COVID-19 cases differs significantly from province to province due to the difference in population. Others are especially high as we expect it to cover the large number of population in the UK.
 
-Explore the vaccinated dataframe:
+##### Explore the vaccinated dataframe:
 - The vaccinated dataframe is the daily entries of vaccination in UK and it is not cumulative data
 - The vaccinated dataframe have 7,584 rows and 11 columns with 0 rows of missing data
 - Although the number of COVID-19 cases in Others differs significantly as it covers the large number of population in the UK, the vaccination number is similar with other province
 - Vaccinated number is the same as Second Dose which indicate people who received Second Dose are considered to be fully vaccinated
 - The desriptive statistic of vaccinated dataframe does not provide much insight either because the data entries before the vaccination launched were all recorded as 0
 
-Explore the tweets dataframe:
+##### Explore the tweets dataframe:
 - The tweets dataframe is an extract of Twitter data from 15 May 2022 to 23 May 2022 relating to the #coronavirus hashtag
 - The tweets dataframe have 3,960 rows and 21 columns with missing value from few columns across all data
 
-View the Covid cases and Vaccination in Gibraltar:
+##### View the Covid cases and Vaccination in Gibraltar:
 - Descriptive statistic of cases_gibraltar dataframe does not provide much insight given part of the data are cumulative data
 - Gibraltar reached the maximum number of death on 27 Aug, 2021
 - Gibraltar reached the maximum number of recovered and hospitalised on 4 Aug, 2021 and 18 Jan, 2021 respectively. The number dropped back that indicated a potential data record issue if the data was recorded as a cumulative data
@@ -39,7 +39,7 @@ View the Covid cases and Vaccination in Gibraltar:
 
 
 
-Week 3 Notes and Observations:
+### Week 3 Notes and Observations:
 
 The data for Others province/state is heavily skewed that affect the overview of the dataset. Given that there is no clear indication of what the Others represented and we cannot see much insight provided from this data, we have dropped the Others data to better review the entire dataset.
 
@@ -53,7 +53,7 @@ The analysis of the data is limited by the incompetency and inaccuracy of the da
 
 
 
-Week 4 Notes and observations:
+### Week 4 Notes and observations:
 
 - Others is taken out to avoid skewing the dataset and better observe the patterns
 - The hospitalisations are synchronised across province/states
@@ -66,7 +66,7 @@ Week 4 Notes and observations:
 
 
 
-Week 5 Notes and Observations:
+### Week 5 Notes and Observations:
 
 - The Tweets data are collected in May 2022
 - The top hashtags and words in the Tweets data are netural words that reflects how the general public are used to COVID-19 with less negative emotions. Yet, the data size is too small that more data should be scraped from Twitter for a better review
@@ -76,7 +76,7 @@ Week 5 Notes and Observations:
 
 
 
-Week 6 Notes & Observations:
+### Week 6 Notes & Observations:
 
 Answer 1: Quantitative data are information about numeric variables. In contrast, qualitative data are data that cannot be counted, measured or readily expressed using figures. It is the descriptive and conceptual findings usually collected through questionnaires, interviews, or observation.
 
