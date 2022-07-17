@@ -12,25 +12,25 @@ With the concern listed above, it is important to review the data trends over ti
 
 The typical mistakes that are easily made in this phase is to review the data at a high level only and neglect the data detail.
 
-##### Explore the cases dataframe:
+#### Explore the cases dataframe:
 - The cases dataframe is the daily entries that contain details of COVID cases in the United Kingdom, including the number of deaths, cases, recovered, and hospitalised cases in each of the provinces.
 - Deaths and Cases are cumulative data as we can see the number increase over time. Hence, descriptive statistic does not provide much insight in this case
 - The hospitalised data is the number of cases where COVID-19 positive individuals are hospitalised, yet it is worth to further explore and clarify given that the number of hospitalised could be higher than the number of cases that is absurd
 - The cases dataframe have 7,584 rows and 12 columns with 2 rows of missing data
 - The number of COVID-19 cases differs significantly from province to province due to the difference in population. Others are especially high as we expect it to cover the large number of population in the UK.
 
-##### Explore the vaccinated dataframe:
+#### Explore the vaccinated dataframe:
 - The vaccinated dataframe is the daily entries of vaccination in UK and it is not cumulative data
 - The vaccinated dataframe have 7,584 rows and 11 columns with 0 rows of missing data
 - Although the number of COVID-19 cases in Others differs significantly as it covers the large number of population in the UK, the vaccination number is similar with other province
 - Vaccinated number is the same as Second Dose which indicate people who received Second Dose are considered to be fully vaccinated
 - The desriptive statistic of vaccinated dataframe does not provide much insight either because the data entries before the vaccination launched were all recorded as 0
 
-##### Explore the tweets dataframe:
+#### Explore the tweets dataframe:
 - The tweets dataframe is an extract of Twitter data from 15 May 2022 to 23 May 2022 relating to the #coronavirus hashtag
 - The tweets dataframe have 3,960 rows and 21 columns with missing value from few columns across all data
 
-##### View the Covid cases and Vaccination in Gibraltar:
+#### View the Covid cases and Vaccination in Gibraltar:
 - Descriptive statistic of cases_gibraltar dataframe does not provide much insight given part of the data are cumulative data
 - Gibraltar reached the maximum number of death on 27 Aug, 2021
 - Gibraltar reached the maximum number of recovered and hospitalised on 4 Aug, 2021 and 18 Jan, 2021 respectively. The number dropped back that indicated a potential data record issue if the data was recorded as a cumulative data
