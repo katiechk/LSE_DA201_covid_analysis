@@ -1,7 +1,7 @@
 # LSE_DA_COVID_analysis
 
 
-Week 2 Notes and observations:
+## Week 2 Notes and observations:
 
 The total numbers provide a glimpse of the COVID-19 data to indicate the overview of the data recorded. Yet, it is unable to provide much insight because of the following reasons:
 1. Part of the data recorded are cumulative data that the sum does not provide an actual picture of the data
