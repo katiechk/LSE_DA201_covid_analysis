@@ -1,4 +1,4 @@
-# LSE_DA_COVID_analysis
+# LSE_DA201_covid_analysis
 
 
 ### Week 2 Notes and Observations:
